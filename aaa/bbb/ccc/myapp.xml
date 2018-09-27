@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Android-App-Publishing-Platform/Rules/master/version1.xsd">
+    <!-- owner should be the github user who is able to update the xml file later -->
+    <owner>user1@ccc.bbb.aaa user2@ccc.bbb.aaa</owner>
+    <packageName>aaa.bbb.ccc.myapp</packageName>
+    <displayName>
+        <stringByLang>
+            <lang>en_US</lang>
+            <text>MyApp</text>
+        </stringByLang>
+        <stringByLang>
+            <lang>ru_RU</lang>
+            <text>MyApp</text>
+        </stringByLang>
+    </displayName>
+    <category>App-Education</category>
+    <introduction>
+        <stringByLang>
+            <lang>en_US</lang>
+            <text>This is my app</text>
+        </stringByLang>
+    </introduction>
+    <brief>
+        <stringByLang>
+            <lang>en_US</lang>
+            <text>my app</text>
+        </stringByLang>
+    </brief>
+    <keyword>
+        <stringByLang>
+            <lang>en_US</lang>
+            <text>Key1 Key2</text>
+        </stringByLang>
+    </keyword>
+    <snapshotList>
+        <urlListByLang>
+            <lang>en_US</lang>
+            <text>http://aaa.com/a.jpg http://aaa.com/b.png</text>
+        </urlListByLang>
+    </snapshotList>
+    <videoList>
+        <urlListByLang>
+            <lang>en_US</lang>
+            <text>http://aaa.com/a.mp4 http://aaa.com/b.mp4</text>
+        </urlListByLang>
+    </videoList>
+    <updateLog>
+        <stringByLang>
+            <lang>en_US</lang>
+            <text>Minor fix</text>
+        </stringByLang>
+    </updateLog>
+    <pulisherName>
+        <stringByLang>
+            <lang>en_US</lang>
+            <text>My Company</text>
+        </stringByLang>
+    </pulisherName>
+    <website>http://ccc.bbb.aaa</website>
+    <deviceType>Phone</deviceType>
+    <regionList>US RU IN ID</regionList>
+    <onlineApkList>
+        <apk>
+            <deviceFilterDesc>For arm64</deviceFilterDesc>
+            <versionCode>100</versionCode>
+            <channelApkFile>
+                <forAADP>COMMON</forAADP>
+                <apkFile>http://aaa.com/a.apk</apkFile>
+                <apkHash>xxxxx</apkHash>
+                <apkSize>100</apkSize>
+            </channelApkFile>
+            <channelApkFile>
+                <forAADP>XIAOMI</forAADP>
+                <apkFile>http://aaa.com/b.apk</apkFile>
+                <apkHash>yyyy</apkHash>
+                <apkSize>100</apkSize>
+            </channelApkFile>
+        </apk>
+    </onlineApkList>
+</app>
